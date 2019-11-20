@@ -1,0 +1,21 @@
+{
+    "name": "ise-dark-editor",
+    "displayName": "ISE Dark Editor",
+    "description": "The dark editor theme from Windows PowerShell ISE",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "ISE Dark Editor",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ISE Dark Editor-color-theme.json"
+            }
+        ]
+    }
+}

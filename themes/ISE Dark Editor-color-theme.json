@@ -1,0 +1,93 @@
+{
+	"name": "ISE Dark Editor",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#012456",
+		"editor.foreground": "#e0ffff",
+		"activityBarBadge.background": "#007acc",
+		//"sideBarTitle.foreground": "#01560c"
+	},
+	"tokenColors": [
+		{
+			"name": "Variables, Constants",
+			"scope": [
+				"variable.language",
+				"variable.other",
+				"constant.character",
+				"constant.other",
+				"constant.language.powershell"
+			],
+			"settings": {
+				"foreground": "#ff4500"
+			}
+		},
+		{
+			"name": "Numbers",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#ffe4c4"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string.quoted.double",
+				"string.quoted.single"
+			],
+			"settings": {
+				"foreground": "#db7093"
+			}
+		},
+		{
+			"name": "Command Argument",
+			"scope": [
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#ee82ee",
+			}
+		},
+		{
+			"name": "Attributes",
+			"scope": [
+				"support.function.attribute"
+			],
+			"settings": {
+				"foreground": "#b0c4de",
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"comment.block",
+				"comment.block.documentation",
+				"keyword.operator.documentation"
+			],
+			"settings": {
+				"foreground": "#98fb98",
+			}
+		},
+		{
+			"name": "Types",
+			"scope": [
+				"storage.type"
+			],
+			"settings": {
+				"foreground": "#8fbc8f",
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": [
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#d3d3d3",
+			}
+		}
+
+	]
+}
